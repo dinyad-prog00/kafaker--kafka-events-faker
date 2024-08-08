@@ -1,0 +1,1 @@
+from .template import customer, product, store, supplier, employee,order
