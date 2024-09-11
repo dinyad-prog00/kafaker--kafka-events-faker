@@ -1,6 +1,6 @@
 from kafaker.data import DataRepo
 from kafaker.faker import KafkaEventsFaker
-from kafaker.topic import TopicConfif
+from kafaker.topic import TopicConfig
 from kafaker.template import customer, store, product, supplier, order, employee
 import random
 
@@ -8,10 +8,10 @@ class KafkaOrderEvents(KafkaEventsFaker):
     def __init__(self, topic_name="orders", bootstrap_servers='localhost:9092', nb_threads=3, start_times=[0, 2, 21], intervals=[5, 7, lambda: random.randint(1, 20)], console=True, polulate_id=False):
         super().__init__(
             topics=[
-                TopicConfif(topic_name, order,
-                            nb_threads=3,
-                            start_times=[0, 2, 21],
-                            intervals=[5, 7, lambda: random.randint(1, 20)])
+                TopicConfig(topic_name, order,
+                            nb_threads=nb_threads,
+                            start_times=start_times,
+                            intervals=intervals)
             ],
             repositoies=[
                 DataRepo("customers", customer, 300),

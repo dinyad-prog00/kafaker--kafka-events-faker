@@ -1,7 +1,7 @@
 import random
 
 
-class TopicConfif:
+class TopicConfig:
     def __init__(self,name,model,nb_threads=1,start_times=[0],intervals=[lambda:random.randint(1, 20)]) -> None:
         self.name=name
         self.model=model

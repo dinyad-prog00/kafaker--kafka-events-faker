@@ -1,0 +1,272 @@
+{
+    "id": "CLdEziUbVFF7UcFWXeC8cT",
+    "order_date": "2024-08-09T21:49:14.435",
+    "status": "Completed",
+    "items": [
+        {
+            "quantity": 3,
+            "unit_price": 429.66,
+            "product_id": {
+                "id": "kAhoEQ5vujSHCugow9NVAR",
+                "name": "New Mouse",
+                "description": "L'avantage de concr\u00e9tiser vos projets naturellement",
+                "category": "Baby",
+                "retail_price": 440.87,
+                "supplier_price": 125.72,
+                "supplier_id": {
+                    "id": "jRtZZg8KYjYt592pvguDtZ",
+                    "name": "Perrot S.A.",
+                    "contact_person": "Constance Perret",
+                    "email": "bernadette92@morel.org",
+                    "phone": "0467895470",
+                    "address": "7, chemin Susanne Roche\n55744 Couturier",
+                    "city": "Sainte Hortense-les-Bains",
+                    "zip_code": "53436",
+                    "country": "Guin\u00e9e Equatoriale"
+                }
+            }
+        },
+        {
+            "quantity": 7,
+            "unit_price": 184.9,
+            "product_id": {
+                "id": "QksGC94ENvBQKoqDwT2ohW",
+                "name": "Hat",
+                "description": "L'avantage d'atteindre vos buts \u00e0 sa source",
+                "category": "Jewelery",
+                "retail_price": 629.04,
+                "supplier_price": 386.14,
+                "supplier_id": {
+                    "id": "fmAVYvdPecT2LXrpnDiD8Y",
+                    "name": "Becker Alexandre SA",
+                    "contact_person": "Louise Charrier",
+                    "email": "aimerousseau@clement.com",
+                    "phone": "+33 (0)6 66 19 44 55",
+                    "address": "71, boulevard Delorme\n37744 Guillondan",
+                    "city": "Da Costaboeuf",
+                    "zip_code": "95376",
+                    "country": "Tokelau"
+                }
+            }
+        },
+        {
+            "quantity": 2,
+            "unit_price": 259.75,
+            "product_id": {
+                "id": "fMQ5fFGshiMGmnxDHxrkMv",
+                "name": "Ergonomic Fish",
+                "description": "L'art de rouler \u00e0 l'\u00e9tat pur",
+                "category": "Garden",
+                "retail_price": 360.84,
+                "supplier_price": 751.03,
+                "supplier_id": {
+                    "id": "2mH6vzJNLQwCRyw7gRvn2L",
+                    "name": "Leconte",
+                    "contact_person": "Alexandre Hoareau",
+                    "email": "lucroger@fleury.fr",
+                    "phone": "+33 (0)3 24 43 70 52",
+                    "address": "2, avenue In\u00e8s Normand\n33918 GoncalvesVille",
+                    "city": "Schmitt",
+                    "zip_code": "22805",
+                    "country": "Cayman (\u00celes)"
+                }
+            }
+        },
+        {
+            "quantity": 7,
+            "unit_price": 426.14,
+            "product_id": {
+                "id": "4N9AzFKtcS7ieFTPAa5tMZ",
+                "name": "Bike",
+                "description": "La possibilit\u00e9 d'innover plus rapidement",
+                "category": "Baby",
+                "retail_price": 757.97,
+                "supplier_price": 275.53,
+                "supplier_id": {
+                    "id": "2M7QRLH2hEGkXK74dM8Sh3",
+                    "name": "Laine SARL",
+                    "contact_person": "Marine Picard",
+                    "email": "imace@jourdan.org",
+                    "phone": "06 99 14 89 35",
+                    "address": "9, avenue Grenier\n97639 Bazin",
+                    "city": "David",
+                    "zip_code": "28953",
+                    "country": "Suisse"
+                }
+            }
+        },
+        {
+            "quantity": 6,
+            "unit_price": 352.58,
+            "product_id": {
+                "id": "GZp6ZiskJ6EiBckLYXqQCB",
+                "name": "Tasty Fresh Chicken",
+                "description": "Le confort de louer \u00e0 sa source",
+                "category": "Books",
+                "retail_price": 775.69,
+                "supplier_price": 645.55,
+                "supplier_id": {
+                    "id": "hLFs3TasPCgPuDWLXcapRh",
+                    "name": "Hernandez",
+                    "contact_person": "Timoth\u00e9e du Guyot",
+                    "email": "paulinemarion@guillaume.fr",
+                    "phone": "+33 6 95 15 72 70",
+                    "address": "36, boulevard Bonnin\n34710 Langlois",
+                    "city": "Barre",
+                    "zip_code": "58522",
+                    "country": "Gibraltar"
+                }
+            }
+        },
+        {
+            "quantity": 8,
+            "unit_price": 729.42,
+            "product_id": {
+                "id": "RRunBiA5c7tVXozV878g2w",
+                "name": "For repair Metal Chair",
+                "description": "L'assurance d'innover \u00e0 la pointe",
+                "category": "Shoes",
+                "retail_price": 179.44,
+                "supplier_price": 71.64,
+                "supplier_id": {
+                    "id": "X83V3phdncCMwXuHwFWxi6",
+                    "name": "Barbe Mahe S.A.S.",
+                    "contact_person": "H\u00e9l\u00e8ne Perez",
+                    "email": "gerardlamy@roux.net",
+                    "phone": "03 57 55 66 58",
+                    "address": "20, rue Fontaine\n58867 Chauvet",
+                    "city": "Andre-sur-Salmon",
+                    "zip_code": "90714",
+                    "country": "Territoire britannique de l'oc\u00e9an Indien"
+                }
+            }
+        },
+        {
+            "quantity": 5,
+            "unit_price": 474.95,
+            "product_id": {
+                "id": "NtvX7cFxLhbXiQ3PHwY68H",
+                "name": "Licensed Sausages",
+                "description": "L'avantage d'\u00e9voluer autrement",
+                "category": "Computers",
+                "retail_price": 289.09,
+                "supplier_price": 243.14,
+                "supplier_id": {
+                    "id": "kS2RiMgb2XcDufEh9dbMjE",
+                    "name": "No\u00ebl et Fils",
+                    "contact_person": "Colette Lucas",
+                    "email": "julie86@bouvier.net",
+                    "phone": "+33 3 39 29 72 57",
+                    "address": "64, avenue de Bernier\n72427 Langlois",
+                    "city": "Bertrand-sur-Mer",
+                    "zip_code": "79913",
+                    "country": "Swaziland"
+                }
+            }
+        },
+        {
+            "quantity": 9,
+            "unit_price": 389.62,
+            "product_id": {
+                "id": "UQjbiwZHRFDF9LzJ867dbD",
+                "name": "Shoes",
+                "description": "L'assurance de changer \u00e0 l'\u00e9tat pur",
+                "category": "Kids",
+                "retail_price": 522.33,
+                "supplier_price": 476.69,
+                "supplier_id": {
+                    "id": "hLFs3TasPCgPuDWLXcapRh",
+                    "name": "Hernandez",
+                    "contact_person": "Timoth\u00e9e du Guyot",
+                    "email": "paulinemarion@guillaume.fr",
+                    "phone": "+33 6 95 15 72 70",
+                    "address": "36, boulevard Bonnin\n34710 Langlois",
+                    "city": "Barre",
+                    "zip_code": "58522",
+                    "country": "Gibraltar"
+                }
+            }
+        },
+        {
+            "quantity": 4,
+            "unit_price": 1.86,
+            "product_id": {
+                "id": "T7qSTnaU5hgmBbwptbJHT7",
+                "name": "Unbranded Metal Pizza",
+                "description": "Le droit de louer \u00e0 la pointe",
+                "category": "Health",
+                "retail_price": 780.5,
+                "supplier_price": 670.95,
+                "supplier_id": {
+                    "id": "TyUFWm6Ld9XTYpZNpx5Dvd",
+                    "name": "Martineau Germain et Fils",
+                    "contact_person": "Alexandria R\u00e9my du Hubert",
+                    "email": "thibault97@dias.com",
+                    "phone": "04 91 16 90 66",
+                    "address": "84, rue Augustin Hamel\n14758 Saint C\u00e9linaVille",
+                    "city": "Huet",
+                    "zip_code": "27949",
+                    "country": "France"
+                }
+            }
+        },
+        {
+            "quantity": 10,
+            "unit_price": 856.98,
+            "product_id": {
+                "id": "dWFPEZ2ez9ciCtmDvGAqxT",
+                "name": "Unbranded Wooden Soap",
+                "description": "L'avantage d'innover naturellement",
+                "category": "Garden",
+                "retail_price": 619.89,
+                "supplier_price": 284.66,
+                "supplier_id": {
+                    "id": "i8yVw3LfVrrwe66eP3Gtqg",
+                    "name": "Cohen",
+                    "contact_person": "Tristan Colin-Lambert",
+                    "email": "npages@nicolas.com",
+                    "phone": "02 48 87 21 33",
+                    "address": "78, chemin de Bouvet\n42105 Boulanger",
+                    "city": "DialloVille",
+                    "zip_code": "14923",
+                    "country": "Paraguay"
+                }
+            }
+        }
+    ],
+    "customer_id": {
+        "id": "hTjrni3M6faQwb2pXvctx9",
+        "first_name": "Jos\u00e9phine",
+        "last_name": "Hoarau",
+        "email": "maggie27@example.com",
+        "phone": "+33 1 60 40 99 64",
+        "address": "85, avenue de Rousset\n85635 Alves",
+        "city": "Diaz",
+        "zip_code": "70986",
+        "country": "Lib\u00e9ria"
+    },
+    "store_id": {
+        "id": "7zwnJAwqBWra9gxotJffec",
+        "name": "Dupuis Lef\u00e8vre S.A.",
+        "phone": "0320978556",
+        "email": "isaacmarin@bouvier.fr",
+        "address": "3, chemin Hortense Godard\n97660 Marin",
+        "city": "Vaillant",
+        "zip_code": "82463",
+        "country": "Za\u00efre"
+    },
+    "employee_id": {
+        "id": "hP7dAXm54wNZdbvTq4fDUZ",
+        "first_name": "Diane",
+        "last_name": "Fournier",
+        "email": "moreauamelie@example.com",
+        "job_title": "\u00e9ducateur canin canine",
+        "hire_date": "2024-08-02T18:36:47.982",
+        "phone": "0321013042",
+        "address": "4, avenue de Delahaye\n49684 Saint Arnaude",
+        "city": "RousseauBourg",
+        "zip_code": "66545",
+        "country": "Cayman (\u00celes)"
+    },
+    "event_time": "2024-08-09T21:49:14.435"
+}

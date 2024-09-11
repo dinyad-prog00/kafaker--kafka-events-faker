@@ -1,1 +1,1 @@
-from .template import customer, product, store, supplier, employee,order
+from .template import customer, product, store, supplier, employee,order, mytest

@@ -1,5 +1,6 @@
 from datetime import datetime
 import random
+import inspect
 from typing import Dict, Sequence
 from faker import Faker
 
@@ -31,11 +32,16 @@ class EventModel(ModelBase):
     def _get(self, repos_datas=None, polulate_id=False):
         event = {}
 
-        for key, value in self.schema.items():
-            if callable(value):
-                event[key] = value()
-            elif isinstance(value, ModelBase):
+        for key, value in self.schema.items():     
+            if isinstance(value, ModelBase):
                 event[key] = value.get_event(repos_datas, polulate_id)
+                
+            elif callable(value):
+                params = []
+                for name in inspect.signature(value).parameters:
+                    if name.startswith("__"):
+                        params.append(event[name[2:]])    
+                event[key] = value(*params)
             else:
                 event[key] = None
 

@@ -7,18 +7,18 @@ import time
 import threading
 from threading import Thread
 from .data import DataRepo
-from .topic import TopicConfif
+from .topic import TopicConfig
 
 
 class KafkaEventsFaker:
-    def __init__(self, topics=Sequence[TopicConfif], repositoies=Sequence[DataRepo], bootstrap_servers='localhost:9092', console=True, polulate_id=False):
+    def __init__(self, topics: Sequence[TopicConfig], repositoies: Sequence[DataRepo] = [], bootstrap_servers='localhost:9092', console=True, polulate_id=False):
         self.topics = topics
         self.repositories = repositoies
         self.console = console
         self.polulate_id = polulate_id
         if not console:
             self.producer = KafkaProducer(bootstrap_servers=bootstrap_servers,
-                                      value_serializer=lambda v: json.dumps(v).encode('utf-8'))
+                                          value_serializer=lambda v: json.dumps(v).encode('utf-8'))
 
     def _generate_events(self, topic, model):
         event = model.get_event(self.repos_datas, self.polulate_id)
@@ -69,8 +69,9 @@ class KafkaEventsFaker:
     def _build_repos(self):
         repos_datas = {}
         for repo in self.repositories:
-            d = repo.build(repos_datas,self.polulate_id)
+            d = repo.build(repos_datas, self.polulate_id)
             repos_datas[repo.name] = d
         self.repos_datas = repos_datas
-    def add_topic(self,topic: TopicConfif):
+
+    def add_topic(self, topic: TopicConfig):
         self.topics.append(topic)

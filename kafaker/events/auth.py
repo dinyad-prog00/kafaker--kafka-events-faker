@@ -3,7 +3,7 @@ import random
 from faker import Faker
 from kafaker.template import customer
 from kafaker.model import EventModel, FromRepo,IdRepo
-from kafaker.topic import TopicConfif
+from kafaker.topic import TopicConfig
 from kafaker.faker import KafkaEventsFaker
 from kafaker.data import DataRepo
 fake = Faker("fr_FR")
@@ -112,7 +112,7 @@ class KafkaUserAuthEvents(KafkaEventsFaker):
         auth = self.build_model()
         super().__init__(
             topics=[
-                TopicConfif(topic_name, auth,
+                TopicConfig(topic_name, auth,
                             nb_threads=3,
                             start_times=[0, 2, 21],
                             intervals=[5, 7, lambda: random.randint(1, 20)])

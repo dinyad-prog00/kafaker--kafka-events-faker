@@ -83,8 +83,11 @@ order = EventModel({
     'store_id': IdRepo("stores"),
     'employee_id': IdRepo("employees"),
 })
+"".lower()
 
-
-auth = EventModel({
-    
+mytest = EventModel({
+    "id" : shortuuid.uuid,
+    'first_name': fake.first_name,
+    'last_name': fake.last_name,
+    'email': lambda __first_name,__last_name : f"{__first_name.lower()}.{__last_name.lower()}@{fake.free_email_domain()}" ,
 })
